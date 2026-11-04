@@ -27,3 +27,10 @@ Das Sheet bekommt zwei Tabs: `TrainingLog` (eine Zeile pro Einheit, für die App
 
 Sicherheit: Die Web-App ist für „Jeder“ erreichbar, schreibt und liest aber nur mit dem richtigen Token.
 Das Token steht nicht im Repo, nur in den Skripteigenschaften und lokal auf deinem iPhone.
+
+## Design
+
+Nur dunkel, OLED Schwarz. Blasse Zahlen im Feld sind Vorschläge vom letzten Mal, kräftige Zahlen sind eingetragen.
+Abhaken übernimmt fehlende Werte aus dem Vorschlag; fehlt danach noch etwas, wird der Satz gelb markiert.
+Orange zeigt Fortschritt und die nächste offene Übung, Gelb steht für Hernie Hinweise, Grün für Erledigtes.
+Details und Begründungen: `specs/features/design-optimierung.md`.
